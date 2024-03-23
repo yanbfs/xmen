@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Personagens X-Men</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet"/>
+
+    <script src="src/js/script.js" defer></script>
+
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+
+    <link rel="icon" href="src/img/favicon.png" />
+  </head>
+
+  <body>
+
+    <audio id="audio-tema" src="src/mp3/theme.mp3" autoplay></audio>
+    <audio id="audio-escolha-personagem" src="src/mp3/chooseyourcaracter.mp3" autoplay></audio>
+    <audio id="audio-selecionar-personagem" src="src/mp3/selectcaracter.mp3"></audio>
+
+    <header class="cabecalho">
+      <img class="logo" src="src/img/logo.svg" alt="Logo x-men" />
+    </header>
+
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+          <li
+            class="personagem selecionado"
+            id="ciclope"
+            data-name="Ciclope"
+            data-description="Ciclope, o líder dos X-Men, já provou ser um ótimo combatente em várias situações, especialmente por conta de sua disciplina e genialidade tática, com vários planos de contingência para qualquer situação. Ele também é um mutante muito poderoso, embora não seja muito lembrado nesse quesito."
+          >
+            <img src="./src/img/card-ciclope.jpg" alt="Personagem Ciclope" />
+          </li>
+
+          <li
+            class="personagem"
+            id="jean-grey"
+            data-name="Jean Grey"
+            data-description="Jean Grey é filha do professor John Grey e sua esposa Elaine. Sua infância foi marcada pela morte traumática de sua melhor amiga, Annie Richardson, o que desencadeou seus poderes telepáticos latentes. Jean foi posteriormente tratada pelo Professor Charles Xavier para controlar seus poderes mutantes, sendo matriculada no Instituto Xavier Para Jovens Superdotados e se tornando a primeira mulher a integrar os X-Men, adotando o codinome 'Garota Marvel'."
+          >
+            <img src="./src/img/card-jean-grey.jpg" alt="Personagem Ciclope" />
+          </li>
+
+          <li
+            class="personagem"
+            id="lince-negra"
+            data-name="Lince Negra"
+            data-description="Kitty Pryde, ou Lince Negra (em inglês, Shadowcat) é uma personagem fictícia das histórias em quadrinhos do Universo Marvel, publicadas pela Marvel Comics. Originalmente denominada Ninfa, ela integrou a quarta formação dos X-Men, utilizando ao máximo sua habilidade de atravessar objetos sólidos e andar no ar. Seu grande amor é Colossus. Seu nome verdadeiro é Katherine Anne Pryde, embora seja chamada mais frequentemente de Kitty. Sua primera aparição foi em Uncanny X-Men #129 (janeiro de 1980)."
+          >
+            <img
+              src="./src/img/card-lince-negra.jpg"
+              alt="Personagem Lince Negra"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="tempestade"
+            data-name="Tempestade"
+            data-description="Tempestade é membro do X-Men, um grupo de heróis mutantes lutando pela paz e igualdade de direitos entre mutantes e humanos. Sob a tutela de um ladrão mestre, a adolescente Munroe tornou-se uma colecionadora habilidosa,meio pelo qual ela conhece por coincidência o poderoso mutante Charles Xavier, o Professor X."
+          >
+            <img
+              src="./src/img/card-tempestade.jpg"
+              alt="Personagem Tempestade"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="vampira"
+            data-name="Vampira"
+            data-description="Vampira (em inglês: Rogue) é uma personagem de histórias em quadrinhos da editora Marvel Comics, integrante dos X-Men. Sua primeira aparição foi em The Avengers Annual número 10 de 1981, e seu poder mutante é a habilidade de sugar a vitalidade, memória e poderes de outros seres vivos através do contato com a pele. Seu nome de batismo é Anna Marie e levou mais de uma década antes que fosse devidamente citado (numa história escrita por Chris Claremont)."
+          >
+            <img src="./src/img/card-vampira.jpg" alt="Personagem Vampira" />
+          </li>
+
+          <li
+            class="personagem"
+            id="wolverine"
+            data-name="Wolverine"
+            data-description="Ele se juntou ao programa governamental Arma X, onde passou por um experimento que revestiu seu esqueleto com adamantium, um metal raro e indestrutível. Essa transformação o tornou praticamente indestrutível e deu origem ao nome Wolverine, uma referência ao pequeno mamífero conhecido por sua ferocidade."
+          >
+            <img
+              src="./src/img/card-wolverine.jpg"
+              alt="Personagem Wolverine"
+            />
+          </li>
+
+          <li
+            class="personagem"
+            id="noturno"
+            data-name="Noturno"
+            data-description="Noturno (Nightcrawler no original), alter-ego de Kurt Wagner, é um personagem de história em quadrinhos da editora Marvel Comics, fazendo parte do Universo Marvel, em especial nas no universo dos X-Men. A primeira aparição de Noturno foi em Giant Size X-Men número 1 de maio de 1975."
+          >
+            <img src="./src/img/card-noturno.jpg" alt="Personagem Noturno" />
+          </li>
+
+          <li
+            class="personagem"
+            id="magneto"
+            data-name="Magneto"
+            data-description="Trata-se de um sobrevivente do Holocausto, que se torna um mutante com enormes poderes de manipulação de campos magnéticos, além de controlar qualquer tipo de metal. Sua primeira aparição foi em Malcolm X, como afirma Stan Lee, em 1963, dando origem a um dos vilões mais reconhecidos das Histórias em Quadrinhos."
+          >
+            <img src="./src/img/card-magneto.jpg" alt="Personagem Magneto" />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/img/card-ciclope.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+            Ciclope, o líder dos X-Men, já provou ser um ótimo combatente em várias situações, especialmente por conta de sua disciplina e genialidade tática, com vários planos de contingência para qualquer situação. Ele também é um mutante muito poderoso, embora não seja muito lembrado nesse quesito.
+          </p>
+        </div>
+      </section>
+    </main>
+
+  </body>
+</html>
