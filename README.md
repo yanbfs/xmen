@@ -1,6 +1,6 @@
 <b>Documentação JavaScript do Projeto X-Men</b>
 
-Introdução
+<b>Introdução</b>
     Esta documentação descreve as funcionalidades implementadas em JavaScript no projeto X-Men. O JavaScript é responsável por fornecer interatividade à página da web, permitindo que os usuários selecionem personagens e exibam informações detalhadas sobre eles.
 
 Funcionalidades Implementadas
