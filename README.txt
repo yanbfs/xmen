@@ -1,6 +1,6 @@
-<b>Documentação JavaScript do Projeto X-Men</b>
+Documentação JavaScript do Projeto X-Men
 
-<b>Introdução</b>
+Introdução
     Esta documentação descreve as funcionalidades implementadas em JavaScript no projeto X-Men. O JavaScript é responsável por fornecer interatividade à página da web, permitindo que os usuários selecionem personagens e exibam informações detalhadas sobre eles.
 
 Funcionalidades Implementadas
@@ -36,7 +36,7 @@ Estrutura do Código
             • personagensDaLista.forEach(personagem => { personagem.addEventListener('mouseenter', () => { ... }); });
         Uso: 
             • Permite que o usuário selecione um personagem ao passar o mouse sobre seu card na lista.
-    
+
     4. Remoção de Seleção
         Descrição: 
             • Remove a classe .selecionado de qualquer elemento que a possua.
@@ -44,7 +44,7 @@ Estrutura do Código
             • function alterarSelecao() { ... }
         Uso: 
             • Garante que apenas um personagem esteja selecionado por vez na lista.
-    
+
     5. Atualização da Imagem do Personagem Selecionado
         Descrição: 
             • Atualiza a imagem do personagem exibida na seção de detalhes com base no personagem selecionado.
@@ -52,7 +52,7 @@ Estrutura do Código
             • function alterarImagemPersonagemSelecionado(personagem) { ... }
         Uso: 
             • Permite que o usuário veja a imagem do personagem em destaque ao selecioná-lo na lista.
-    
+
     6. Atualização do Nome do Personagem Selecionado
         Descrição: 
             • Atualiza o nome do personagem exibido na seção de detalhes com base no personagem selecionado.
@@ -60,7 +60,7 @@ Estrutura do Código
             • function alterarNomePersonagemSelecionado(personagem) { ... }
         Uso: 
             • Exibe o nome do personagem selecionado na seção de detalhes.
-    
+
     7. Atualização da Descrição do Personagem Selecionado
         Descrição: 
             • Atualiza a descrição do personagem exibida na seção de detalhes com base no personagem selecionado.
